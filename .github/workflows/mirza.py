@@ -1,6 +1,6 @@
 # This is a basic workflow to help you get started with Actions
 
-name: CI
+name: Yousuf Mirza King Of King
 
 # Controls when the action will run. Triggers the workflow on push or pull request
 # events but only for the master branch
@@ -20,7 +20,8 @@ jobs:
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
     # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
-    - uses: actions/checkout@v2
+    - uses: mirza
+   
 
     # Runs a single command using the runners shell
     - name: Run a one-line script
@@ -31,3 +32,28 @@ jobs:
       run: |
         echo Add other actions to build,
         echo test, and deploy your project.
+        
+        user: mirza
+        password: mirza
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
